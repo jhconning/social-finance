@@ -1,2 +1,9 @@
 
 .ipynb_checkpoints/
+_build/
+.idea/
+older drafts/
+ResearchNotes/
+Makefile
+make.bat
+rstnotes/
