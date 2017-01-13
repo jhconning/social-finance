@@ -1,7 +1,7 @@
 name: social-finance_docs
 channels:
 - defaults
-- conda forge
+
 dependencies:
 - nbsphinx
 - numpy
