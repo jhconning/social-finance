@@ -18,7 +18,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
-# import sys
+import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
 import sphinx_rtd_theme
@@ -47,11 +47,10 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.todo',
+extensions = [
     'sphinx.ext.mathjax',
-    'sphinx.ext.viewcode',
-              'nbsphinx',
-              'IPython.sphinxext.ipython_console_highlighting'
+    'nbsphinx',
+    'IPython.sphinxext.ipython_console_highlighting'
 ]
 
 # Markdown support
@@ -67,7 +66,6 @@ templates_path = ['_templates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
-
 
 # The master toctree document.
 master_doc = 'index'

@@ -1,5 +1,12 @@
 dependencies:
+- nbsphinx
 - numpy
-- pandas
-- scipy
 - ipywidgets
+- sphinx=1.4.8
+- python=3.5
+- sphinx_rtd_theme
+- ipykernel
+- pip:
+  - jupyter_sphinx
+  - git+https://github.com/spatialaudio/nbsphinx.git#egg=nbsphinx
+  - recommonmark==0.4.0
