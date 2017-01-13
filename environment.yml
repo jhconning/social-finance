@@ -1,5 +1,5 @@
 name: social-finance_docs
-channels
+channels:
 - defaults
 - conda forge
 dependencies:
