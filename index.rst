@@ -12,17 +12,10 @@ Social Finance Notebooks
    notebooks/socfin
 
 
-Supporting Notes
+Supporting Materials
 -------------------
 
 .. toctree::
 
    notebooks/basicmodel
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
